@@ -49,24 +49,24 @@ Prerequisites
 
 ## Installation & Setup
 * Clone the repository
-  
+  ```
   git clone [https://github.com/SenTrick16/wanderlust.git](https://github.com/SenTrick16/wanderlust.git)
   cd wanderlust
-  
+  ```
 * Install dependencies
- 
+ ```
   npm install
-  
+  ```
 * Configure Environment Variables
   (Create a .env file in the root directory):
-  
+  ```
   ATLASDB_URL=your_mongodb_connection_string
   CLOUD_NAME=your_cloudinary_cloud_name
   CLOUD_API_KEY=your_cloudinary_api_key
   CLOUD_API_SECRET=your_cloudinary_api_secret
-  
+  ```
 *  Run the Application
-  
+  ```
     node app.js
-
+```
 Access the web app at http://localhost:8080/listings.
