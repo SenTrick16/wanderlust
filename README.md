@@ -67,6 +67,6 @@ Prerequisites
   
 *  Run the Application
   
-  node app.js
+    node app.js
 
 Access the web app at http://localhost:8080/listings.
